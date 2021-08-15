@@ -1,0 +1,277 @@
+
+/* Section :
+- Fond gris #222222
+- taille :
+*/
+
+
+
+p.accueil {
+    margin : 10px;
+    padding :5px;
+    background-color : #FFFF77;
+    font-weight :bold;
+    font-size : 2vw;
+    text-align : center;
+    width:30%;
+}
+
+
+/*Accueil Petits écrans*/
+@media screen and (max-width: 800px) {
+    section.accueil {
+        background-color : #222222;
+        width : 600px;
+        display :flex;
+        font-family: serif;
+        display :flex;
+        flex-direction: column;
+        align-items : center;
+
+    }
+    a.accueil {
+        margin-top : 5px;
+        margin-left : 20px;
+        margin-right : 20px;
+        margin-bottom : 20px;
+        Padding :10px;
+        background-color : #FFFF77;
+        font-size : 1.5vw;
+        text-align : center;
+        width:30%;
+
+    }
+}
+
+
+
+/*Accueil grands écrans*/
+@media screen and (min-width: 801px) {}
+    section.accueil {
+        background-color : #222222;
+        width : 600px;
+        display :flex;
+        font-family: serif;
+        display :flex;
+
+    }
+    a {
+        margin-top : 20px;
+        margin-left : 5px;
+        margin-right : 20px;
+        margin-bottom : 20px;
+        Padding :10px;
+        background-color : #FFFF77;
+        font-size : 1.5vw;
+        text-align : center;
+        width:30%;
+
+    }
+
+
+
+
+
+/*!* Jeu petits écrans*!
+ */
+@media screen and (max-width: 800px){
+    section.jeu {
+        background-color : #222222;
+        width : 600px;
+        display :flex;
+        flex-direction :column;
+
+    }
+    /* Groupe haut*/
+    .premier {
+        background-color : #FFFF77;
+        font-weight :bold;
+        font-size : 2vw;
+        text-align : center;
+        align-self: center;
+        margin-top:5px;
+
+    }
+
+    img{
+        height :5em;
+        padding:0.5em;
+
+    }
+
+    /* Groupe milieu*/
+
+    table {
+        margin:3px;
+        align-self: center;
+    }
+    .vide {
+        border: solid #222222 3px;
+        background-color: #FFFF77;
+        width: 7vw;
+        height: 7vw;
+        font-size : 5vw;
+        text-align : center;
+
+    }
+    .cocheX {
+        background-color: #FF7777;
+        border : solid red 1px;
+
+    }
+    .cocheO {
+        background-color: #7777FF;
+        border : solid blue 1px;
+
+    }
+
+
+    /* groupe droite */
+
+    .dernier{
+        font-size : 1.5vw;
+        text-align : center;
+        align-self: center;
+
+    }
+
+    #alerte, #titre, #joueur, #fin  {
+        width: 15vw;
+        height: 5.25vw;
+        margin:6px;
+
+
+    }
+    #titre {
+        font-weight :bold;
+    }
+
+
+    .fondJaune{
+        background-color : #FFFF77;
+    }
+
+    .fondRouge {
+        background-color : #FF7777;
+        border : solid red 2px;
+    }
+    .fondNoir {
+        background-color: #222222;
+        border: solid #222222 2px;
+    }
+
+    .fondBleu{
+        background-color: #7777FF;
+        border : solid blue 2px;
+    }
+
+    .alerteMarche{
+        background-color : orangered;
+        border : solid red 2px;
+    }
+}
+
+
+
+/* Jeu grands écrans*/
+@media screen and (min-width: 801px){
+    section.jeu {
+        background-color : #222222;
+        width : 800px;
+        display :flex;
+        justify-content:center;
+        /*align-items:baseline;*/
+    }
+    /* Groupe gauche*/
+    .premier {
+        margin-top :10px;
+        margin-left :10px;
+        margin-right :5px;
+        margin-bottom :10px;
+        background-color : #FFFF77;
+        font-weight :bold;
+        font-size : 2vw;
+        text-align : center;
+        align-self: center;
+    }
+
+    img{
+        height :5em;
+        padding:0.5em;
+
+    }
+
+    /* Groupe milieu*/
+
+    table {
+        margin:3px;
+    }
+    .vide {
+        border: solid #222222 3px;
+        background-color: #FFFF77;
+        width: 7vw;
+        height: 7vw;
+        font-size :5vw;
+        text-align : center;
+
+    }
+    .cocheX {
+        background-color: #FF7777;
+        border : solid red 1px;
+
+    }
+    .cocheO {
+        background-color: #7777FF;
+        border : solid blue 1px;
+
+    }
+
+
+    /* groupe droite */
+
+    .dernier{
+        font-size : 1.5vw;
+        text-align : center;
+        align-self: center;
+
+    }
+
+#alerte, #titre, #joueur, #fin  {
+    width: 15vw;
+    height: 5.25vw;
+    margin:6px;
+
+
+}
+    #titre {
+    font-weight :bold;
+    }
+
+
+    .fondJaune{
+        background-color : #FFFF77;
+    }
+
+    .fondRouge {
+        background-color : #FF7777;
+        border : solid red 2px;
+    }
+    .fondNoir {
+        background-color: #222222;
+        border: solid #222222 2px;
+    }
+
+    .fondBleu{
+        background-color: #7777FF;
+        border : solid blue 2px;
+    }
+
+    .alerteMarche{
+        background-color : orangered;
+        border : solid red 2px;
+    }
+}
+
+
+
+

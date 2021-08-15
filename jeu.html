@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<section class ="jeu">
+
+<div class="premier">
+    <p id="lien" ><a href="accueil.html">Retour à la page principale</a> <br>
+        <img src="imgx.png"/> </p>
+
+</div>
+
+
+        <table >
+            <tr>
+                <td class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td  class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+            </tr>
+            <tr>
+                <td class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td  class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+            </tr>
+            <tr>
+                <td  class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td  class="vide"  onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+                <td  class="vide" onclick="choisirLaCase(this, document.getElementById('joueur'))"></td>
+            </tr>
+
+        </table>
+
+    <table class = "dernier">
+        <tr>
+            <td id="titre"  class="fondJaune"> Jeu de Tic-tac-toe</td>
+        </tr>
+        <tr>
+            <td id="joueur"  class="fondRouge">Joueur X</td>
+        </tr>
+        <tr>
+            <td  id="alerte" > </td>
+        </tr>
+        <tr>
+            <td  id="fin">  </td>
+        </tr>
+
+
+
+    </table>
+
+
+</section>
+<footer>Le super Jeu de Tic-tac-toe © 2021 </footer>
+
+</body>
+</html>
